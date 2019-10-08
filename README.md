@@ -1,5 +1,5 @@
 # docker-putty-tools
-putty-tools in a container
+putty-tools in a container, you can for example convert .ppk keys to openssh format with this image, without installing putty-tools in your local machine.
 
 ## Usage
 ```sh
