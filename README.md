@@ -3,7 +3,7 @@ putty-tools in a container, you can for example convert .ppk keys to openssh for
 
 ## Usage
 ```sh
-docker run --rm       \
+docker run --rm -ti   \
     -v $PWD:/keys     \
     luiszbm/putty-tools puttygen key.ppk -O private-openssh -o key-openssh
 ```
